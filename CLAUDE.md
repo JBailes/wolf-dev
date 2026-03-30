@@ -24,3 +24,9 @@ This is an umbrella development workspace for the [Games on Whales](https://gith
 - Run `./clone-all.sh` to populate or update all sub-repos
 - Changes to sub-repos should be committed within those repos, not here
 - This wrapper repo only tracks its own files (README, scripts, .gitignore, CLAUDE.md)
+
+## Strict Rules
+
+- **NEVER** add `Co-Authored-By` lines to commits
+- **NEVER** add "Generated with Claude Code" or any similar AI attribution to PRs, commits, code comments, or any output
+- No AI-generated branding or attribution of any kind, under any circumstances
